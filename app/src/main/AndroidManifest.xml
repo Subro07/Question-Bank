@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuestionBank"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".CseActivity.Activity6thCse"
+            android:exported="false" />
+        <activity
+            android:name=".CseActivity.Activity8thCse"
+            android:exported="false" />
+        <activity
+            android:name=".CseActivity.Activity7thCse"
+            android:exported="false" />
+        <activity
+            android:name=".CseActivity.Activity5thCse"
+            android:exported="false" />
+        <activity
+            android:name=".CseActivity.Activity3rdCse"
+            android:exported="false" />
+        <activity
+            android:name=".CseActivity.Activity2ndCse"
+            android:exported="false" />
+        <activity
+            android:name=".CseActivity.Activity1stCse"
+            android:exported="false" />
+        <activity
+            android:name=".CseActivity.Activity4thCse"
+            android:exported="false" />
+        <activity
+            android:name=".EeActivity.Activity6thEe"
+            android:exported="false" />
+        <activity
+            android:name=".EeActivity.Activity8thEe"
+            android:exported="false" />
+        <activity
+            android:name=".EeActivity.Activity7thEe"
+            android:exported="false" />
+        <activity
+            android:name=".EeActivity.Activity5thEe"
+            android:exported="false" />
+        <activity
+            android:name=".EeActivity.Activity3rdEe"
+            android:exported="false" />
+        <activity
+            android:name=".EeActivity.Activity2ndEe"
+            android:exported="false" />
+        <activity
+            android:name=".EeActivity.Activity1stEe"
+            android:exported="false" />
+        <activity
+            android:name=".EeActivity.Activity4thEe"
+            android:exported="false" />
+        <activity
+            android:name=".MeActivity.Activity6thMe"
+            android:exported="false" />
+        <activity
+            android:name=".MeActivity.Activity8thMe"
+            android:exported="false" />
+        <activity
+            android:name=".MeActivity.Activity7thMe"
+            android:exported="false" />
+        <activity
+            android:name=".MeActivity.Activity5thMe"
+            android:exported="false" />
+        <activity
+            android:name=".MeActivity.Activity3rdMe"
+            android:exported="false" />
+        <activity
+            android:name=".MeActivity.Activity2ndMe"
+            android:exported="false" />
+        <activity
+            android:name=".MeActivity.Activity1stMe"
+            android:exported="false" />
+        <activity
+            android:name=".MeActivity.Activity4thMe"
+            android:exported="false" />
+        <activity
+            android:name=".EceActivity.Activity6thEce"
+            android:exported="false" />
+        <activity
+            android:name=".EceActivity.Activity8thEce"
+            android:exported="false" />
+        <activity
+            android:name=".EceActivity.Activity7thEce"
+            android:exported="false" />
+        <activity
+            android:name=".EceActivity.Activity5thEce"
+            android:exported="false" />
+        <activity
+            android:name=".EceActivity.Activity3rdEce"
+            android:exported="false" />
+        <activity
+            android:name=".EceActivity.Activity2ndEce"
+            android:exported="false" />
+        <activity
+            android:name=".EceActivity.Activity1stEce"
+            android:exported="false" />
+        <activity
+            android:name=".EceActivity.Activity4thEce"
+            android:exported="false" />
+        <activity
+            android:name=".CeActivity.Activity6thCe"
+            android:exported="false" />
+        <activity
+            android:name=".CeActivity.Activity8thCe"
+            android:exported="false" />
+        <activity
+            android:name=".CeActivity.Activity7thCe"
+            android:exported="false" />
+        <activity
+            android:name=".CeActivity.Activity5thCe"
+            android:exported="false" />
+        <activity
+            android:name=".CeActivity.Activity3rdCe"
+            android:exported="false" />
+        <activity
+            android:name=".CeActivity.Activity2ndCe"
+            android:exported="false" />
+        <activity
+            android:name=".CeActivity.Activity1stCe"
+            android:exported="false" />
+        <activity
+            android:name=".CeActivity.Activity4thCe"
+            android:exported="false" />
+        <activity
+            android:name=".EeActivity.EeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CeActivity.CeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EceActivity.EceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CseActivity.CseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MeActivity.MeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
