@@ -9,6 +9,7 @@ import com.example.questionbank.CseActivity.CseActivity
 import com.example.questionbank.EceActivity.EceActivity
 import com.example.questionbank.EeActivity.EeActivity
 import com.example.questionbank.MeActivity.MeActivity
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
 class MainActivity : AppCompatActivity() {
@@ -16,8 +17,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val buttonCSE = findViewById<Button>(R.id.button1)
 
+
+        val buttonCSE = findViewById<Button>(R.id.button1)
         buttonCSE.setOnClickListener{
             intent = Intent(this, CseActivity::class.java)
             startActivity(intent)

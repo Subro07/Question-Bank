@@ -5,5 +5,7 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.QuestionBank" parent="Base.Theme.QuestionBank" />
+    <style name="Theme.QuestionBank" parent="Base.Theme.QuestionBank" >
+
+    </style>
 </resources>

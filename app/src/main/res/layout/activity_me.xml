@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginVertical="20dp"
-    tools:context=".MeActivity.EeActivity">
+    tools:context=".MeActivity.MeActivity">
 
     <LinearLayout
         android:layout_width="363dp"
